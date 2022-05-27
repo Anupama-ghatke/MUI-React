@@ -1,0 +1,20 @@
+.grid-list{
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(250px,1fr) );
+    grid-gap: 10px;
+
+}
+
+.grid-content {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
